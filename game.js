@@ -279,9 +279,9 @@ function draw() {
     const livesSpacing = 20; // Spacing between each life indicator
     const lifeRadius = 10; // Radius of each life indicator
 
-    ctx.strokeStyle = 'yellow'; // Changed color
+    ctx.strokeStyle = 'orange'; // Changed color
     ctx.lineWidth = 2;
-    ctx.fillStyle = 'green'; // Changed color
+    ctx.fillStyle = 'purple'; // Changed color
 
     // Draw player lives
     for (let i = 0; i < playerCircle.lives; i++) {
